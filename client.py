@@ -33,6 +33,6 @@ async def on_message(message):
     if message.content.startswith("id:"):
         if message.author.id=="336810396340060161":
             msg=message.content.replace("id:","")
-            await bot.send_message(message.channel,"\%s"+%(msg))
+            await bot.send_message(message.channel,"aaa\bbb")
 
 bot.run(str(os.environ.get("BOT_TOKEN")))
